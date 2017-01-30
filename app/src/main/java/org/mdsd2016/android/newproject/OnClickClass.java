@@ -11,11 +11,11 @@ public class OnClickClass implements View.OnClickListener{
     @Override
     public void onClick(View whichView) {
 
-        if(whichView.getId() == R.id.btn_main_activity_start_activity) {
+        if(whichView.getId() == R.id.btn_click_me) {
 
             Log.e("OnClickClass", "Button 1 Clicked");
 
-        }else if(whichView.getId() == R.id.BUTTON2){
+        }else if(whichView.getId() == R.id.btn_2){
             Log.e("OnClickClass", "Button 2 Clicked");
 
         }
